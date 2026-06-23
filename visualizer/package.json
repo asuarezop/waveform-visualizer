@@ -1,9 +1,9 @@
 {
-  "name": "my-next-tailwind-app",
+  "name": "waveform-visualizer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -22,6 +22,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "postcss": "^8.5.15",
+    "prettier": "^3.8.4",
+    "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4.3.1",
     "typescript": "^5"
   }
